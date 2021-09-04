@@ -3,7 +3,7 @@
 
 RUN ls
 ADD first.sh /var/test123
-RUN cd /var
+WORKDIR /var
 RUN ls
-RUN cd /var/test123
+WORKDIR /var/test123
 RUN sh first.sh
