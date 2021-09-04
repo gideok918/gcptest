@@ -2,9 +2,9 @@
 
 
 RUN ls
-ADD first.sh /var/test123
+ADD first.sh /var/test123/first.sh
 WORKDIR /var
 RUN ls
 WORKDIR /test123
-RUN chmod +x first.sh
+RUN ls
 RUN sh first.sh
