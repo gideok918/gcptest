@@ -1,10 +1,10 @@
  FROM ubuntu:20.04
 
-
 RUN ls
-ADD first.sh /var/test123/first.sh
+ADD first.sh /first.sh
+RUN ls
 WORKDIR /var
 RUN ls
-WORKDIR /test123
+WORKDIR /
 RUN ls
-RUN sh first.sh
+RUN first.sh
