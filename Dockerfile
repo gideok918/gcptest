@@ -7,4 +7,4 @@ WORKDIR /var
 RUN ls
 WORKDIR /
 RUN ls
-RUN first.sh
+RUN /first.sh
