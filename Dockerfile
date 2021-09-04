@@ -1,4 +1,4 @@
  FROM ubuntu:20.04
 
-ENTRYPOINT ["i'm start"]
-RUN pwd
+RUN ls
+ADD first.sh /var/test123
