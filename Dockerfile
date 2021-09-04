@@ -2,8 +2,4 @@
 
 RUN ls
 ADD first.sh /first.sh
-RUN ls
-WORKDIR /
-RUN ls
-RUN chmod +x /first.sh
-RUN /first.sh
+RUN ls && chmod +x /first.sh && /first.sh
