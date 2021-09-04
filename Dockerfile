@@ -5,5 +5,5 @@ RUN ls
 ADD first.sh /var/test123
 WORKDIR /var
 RUN ls
-WORKDIR /var/test123
+WORKDIR /test123
 RUN sh first.sh
